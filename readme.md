@@ -1,0 +1,1 @@
+small [addon](https://addons.mozilla.org/en-US/firefox/addon/t-co-sanitizer/) to turn t.co links into regular links on twitter

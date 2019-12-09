@@ -23,5 +23,10 @@
         "content_script.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5ed03090-f71d-4f0e-beb1-36fc69f08a8e}"
+    }
+  }
 }
