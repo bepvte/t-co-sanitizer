@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "T.co sanitizer",
+  "description": "get rid of \"t.co\" shortened analytics links on twitter",
+  "version": "0.0.1",
+  "author": "bep",
+  "developer": {
+    "name": "bep",
+    "url": "https://github.com/bepvte"
+  },
+  "homepage_url": "https://github.com/bepvte/t-co-sanitizer",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "content_security_policy": "default-src 'self'",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.twitter.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ]
+}
