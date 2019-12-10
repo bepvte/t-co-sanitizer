@@ -10,8 +10,8 @@
   },
   "homepage_url": "https://github.com/bepvte/t-co-sanitizer",
   "icons": {
-    "48": "icons/icon.svg",
-    "96": "icons/icon.svg"
+    "48": "icons/icon.png",
+    "96": "icons/icon.png"
   },
   "content_security_policy": "default-src 'self'",
   "content_scripts": [
